@@ -19,9 +19,9 @@
 
 /* Colors */
 :root {
-  --color-default: #212529;
-  --color-primary: #ce1212;
-  --color-secondary: #37373f;
+  --color-default: hsl(210, 11%, 15%);
+  --color-primary: hsl(0, 84%, 44%);
+  --color-secondary: hsl(240, 7%, 23%);
 }
 
 /* Smooth scroll behavior */
@@ -65,7 +65,7 @@ section {
 }
 
 .section-bg {
-  background-color: #eee;
+  background-color: hsla(36, 100%, 52%, 1)
 }
 
 .section-header {
@@ -1172,6 +1172,28 @@ section {
 /*--------------------------------------------------------------
 # Book A Table Section
 --------------------------------------------------------------*/
+
+
+.large-button {
+
+   border-radius: 8rem;
+   background-color: #40cf8c;
+   
+
+    display: inline-block;
+
+    align-items: center;
+    text-align: center;
+
+    margin: 0 4rem ;
+
+    font-size: 1.5rem; /* Ajuste o tamanho conforme necessário */
+    padding: 1rem 2rem; /* Ajuste o preenchimento conforme necessário */
+}
+
+
+
+
 .book-a-table .reservation-img {
   min-height: 500px;
   background-size: cover;

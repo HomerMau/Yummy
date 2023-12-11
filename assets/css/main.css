@@ -95,6 +95,11 @@ section {
   color: var(--color-primary);
 }
 
+
+img.img-fluid.aos-init.aos-animate {
+  border-radius: 18rem;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
